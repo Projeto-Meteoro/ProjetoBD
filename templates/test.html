@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <h1 class = 'titulo-main'>LivroSocial</h1>
+    <p class = 'texto-main'>O que você quer ler hoje? Filtra aqui com a gente para
+        poder<a href="{% url 'search' %}"><span id = 'texto-especial-main'>descobrir sua próxima leitura</span>!</a></p>
+{% endblock %}
